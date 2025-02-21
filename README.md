@@ -1,11 +1,12 @@
 # LiCoL
 This repository provides a TensorFlow implementation of the following paper:
 > **A Quantitatively Interpretable Model for Alzheimer’s Disease Prediction using Deep Counterfactuals**<br>
-> [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1</sup>, [Da-Woon Heo](https://scholar.google.co.kr/citations?user=WapMdZ8AAAAJ&hl=ko&oi=ao)<sup>1</sup>, [Ahmad Wisnu Mulyadi](https://scholar.google.co.kr/citations?user=u50w0cUAAAAJ&hl=ko)<sup>2</sup>, [Wonsik Jung](https://scholar.google.co.kr/citations?user=W4y-TAcAAAAJ&hl=ko)<sup>2</sup>, Eunsong Kang<sup>2</sup>, [Kunho Lee](https://scholar.google.co.kr/citations?user=AoXfBv8AAAAJ&hl=ko)<sup>3, 4</sup>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> [Kwanseok Oh](https://scholar.google.co.kr/citations?user=EMYHaHUAAAAJ&hl=ko)<sup>1</sup>, [Da-Woon Heo](https://scholar.google.co.kr/citations?user=WapMdZ8AAAAJ&hl=ko&oi=ao)<sup>1</sup>, [Ahmad Wisnu Mulyadi](https://scholar.google.co.kr/citations?user=u50w0cUAAAAJ&hl=ko)<sup>2</sup>, [Wonsik Jung](https://scholar.google.co.kr/citations?user=W4y-TAcAAAAJ&hl=ko)<sup>2</sup>, Eunsong Kang<sup>2</sup>, [Kunho Lee](https://scholar.google.co.kr/citations?user=AoXfBv8AAAAJ&hl=ko)<sup>3, 4, 5</sup>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1</sup><br/>
 > (<sup>1</sup>Department of Artificial Intelligence, Korea University) <br/>
 > (<sup>2</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
-> (<sup>3</sup>Department of Biomedical Science and Gwangju Alzheimer’s & Related Dementia Cohort Research Center, Chosun University) <br/>
-> (<sup>4</sup>Korea Brain Research Institute) <br/>
+> (<sup>3</sup>Gwangju Alzheimer’s & Related Dementia Cohort Research Center, Chosun University) <br/>
+> (<sup>4</sup>Department of Biomedical Science and Gwangju Alzheimer’s & Related Dementia Cohort Research Center, Chosun University) <br/>
+> (<sup>5</sup>Korea Brain Research Institute) <br/>
 > Published in Medical Imaging meets NeurIPS (MedNeurIPS2022): ["Quantifying Explainability of Counterfactual-Guided MRI Feature for Alzheimer’s Disease Prediction"](https://scholar.google.co.kr/scholar?oi=bibs&cluster=6228028269487590559&btnI=1&hl=ko) <br/>
 > Published in NeuroImage: https://www.sciencedirect.com/science/article/pii/S1053811925000795 <br/>
 > 
@@ -70,13 +71,15 @@ Mode: #0 Learn, #1 Explain
 If you find this work useful for your research, please cite the following paper:
 
 ```
-@article{oh2023quantitatively,
-  title={A Quantitatively Interpretable Model for Alzheimer's Disease Prediction Using Deep Counterfactuals},
+@article{oh2025quantitatively,
+  title={A quantitatively interpretable model for Alzheimer’s disease prediction using deep counterfactuals},
   author={Oh, Kwanseok and Heo, Da-Woon and Mulyadi, Ahmad Wisnu and Jung, Wonsik and Kang, Eunsong and Lee, Kun Ho and Suk, Heung-Il},
-  journal={arXiv preprint arXiv:2310.03457},
-  year={2023}
+  journal={NeuroImage},
+  pages={121077},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
 ## Acknowledgement
-This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) No. 20220-00959 ((Part 2) Few-Shot Learning of Causal Inference in Vision and Language for Decision Making) and No. 20190-00079 (Department of Artificial Intelligence (Korea University)). This study was further supported by KBRI basic research program through Korea Brain Research Institute funded by the Ministry of Science and ICT (22-BR-03-05).
+This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP), Republic of Korea grant funded by the Korea government (MSIT) No. RS-2022-II220959 ((Part 2) Few-Shot Learning of Causal Inference in Vision and Language for Decision Making, Republic of Korea) and No. RS-2019-II190079 (Department of Artificial Intelligence (Korea University)). This study was further supported by KBRI basic research program through Korea Brain Research Institute funded by the Ministry of Science and ICT, Republic of Korea (22-BR-03-05).
